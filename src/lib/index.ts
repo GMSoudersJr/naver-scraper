@@ -1,4 +1,4 @@
-import { chromium } from '@playwright/test';
+import { chromium } from 'playwright';
 import { chill } from './helperFunctions';
 import {
   NAVER_WEBSITE,
@@ -84,6 +84,7 @@ export const scrapeNaver = async(queryTerm = PLUG_AND_PLAY_KOREA): Promise<strin
     await chill(1_000);
   }
 
+  await context.close();
   await browser.close();
   return linksForCSV;
 };
