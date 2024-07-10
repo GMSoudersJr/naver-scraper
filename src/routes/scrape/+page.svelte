@@ -14,7 +14,6 @@
   <h3 class="recursive-600 section-header">
     {data.links.length} results for: {data.searchedFor}
   </h3>
-
   {#await data.links}
     Loading links...
   {:then links}
