@@ -1,4 +1,4 @@
-import playwright from 'playwright';
+import { chromium } from '@playwright/test';
 import { chill } from './helperFunctions';
 import {
   NAVER_WEBSITE,
@@ -8,7 +8,7 @@ import {
 } from './consts';
 
 export const scrapeNaver = async(queryTerm = PLUG_AND_PLAY_KOREA): Promise<string[]> => {
-  const browser = await playwright.chromium.launch({ headless: true });
+  const browser = await chromium.launch({ headless: true });
 
   const context = await browser.newContext();
 
