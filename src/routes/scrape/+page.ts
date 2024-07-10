@@ -10,12 +10,11 @@ export const load: PageLoad = async ({ fetch, url }) => {
 	});
  */
 
-	const getResponse = await fetch(`/api/scrapeNaver/${searchParams}`)
+	const getResponse = await fetch(`/api/scrapeNaver/${searchParams}`);
 
 	return {
 		title: `Links for ${searchParams}`,
 		links: await getResponse.json(),
-		searchedFor: searchParams,
-	}
-
-}
+		searchedFor: searchParams
+	};
+};

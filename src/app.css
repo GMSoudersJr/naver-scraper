@@ -1,115 +1,115 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 :root {
-  --forsythia: #FFF064;
-  --bloomingShame: #F8A092;
-  --green: #259259;
-  --dark: #cec235;
-  --blueText: #000f9b;
-  --brownText: #905d55;
+	--forsythia: #fff064;
+	--bloomingShame: #f8a092;
+	--green: #259259;
+	--dark: #cec235;
+	--blueText: #000f9b;
+	--brownText: #905d55;
 }
 
 .noto-color-emoji-regular {
-  font-family: "Noto Color Emoji", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: 'Noto Color Emoji', sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .recursive-300 {
-  font-family: "Recursive", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CASL" 0,
-    "CRSV" 0.5,
-    "MONO" 0;
+	font-family: 'Recursive', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+		'slnt' 0,
+		'CASL' 0,
+		'CRSV' 0.5,
+		'MONO' 0;
 }
 
 .recursive-400 {
-  font-family: "Recursive", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CASL" 0,
-    "CRSV" 0.5,
-    "MONO" 0;
+	font-family: 'Recursive', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+		'slnt' 0,
+		'CASL' 0,
+		'CRSV' 0.5,
+		'MONO' 0;
 }
 
 .recursive-500 {
-  font-family: "Recursive", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CASL" 0,
-    "CRSV" 0.5,
-    "MONO" 0;
+	font-family: 'Recursive', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	font-variation-settings:
+		'slnt' 0,
+		'CASL' 0,
+		'CRSV' 0.5,
+		'MONO' 0;
 }
 
 .recursive-600 {
-  font-family: "Recursive", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CASL" 0,
-    "CRSV" 0.5,
-    "MONO" 0;
+	font-family: 'Recursive', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings:
+		'slnt' 0,
+		'CASL' 0,
+		'CRSV' 0.5,
+		'MONO' 0;
 }
 
 .recursive-700 {
-  font-family: "Recursive", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CASL" 0,
-    "CRSV" 0.5,
-    "MONO" 0;
+	font-family: 'Recursive', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+		'slnt' 0,
+		'CASL' 0,
+		'CRSV' 0.5,
+		'MONO' 0;
 }
 
 .recursive-800 {
-  font-family: "Recursive", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CASL" 0,
-    "CRSV" 0.5,
-    "MONO" 0;
+	font-family: 'Recursive', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+	font-variation-settings:
+		'slnt' 0,
+		'CASL' 0,
+		'CRSV' 0.5,
+		'MONO' 0;
 }
 
 .recursive-900 {
-  font-family: "Recursive", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CASL" 0,
-    "CRSV" 0.5,
-    "MONO" 0;
+	font-family: 'Recursive', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+	font-variation-settings:
+		'slnt' 0,
+		'CASL' 0,
+		'CRSV' 0.5,
+		'MONO' 0;
 }
 
 .recursive-1000 {
-  font-family: "Recursive", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 1000;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CASL" 0,
-    "CRSV" 0.5,
-    "MONO" 0;
+	font-family: 'Recursive', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 1000;
+	font-style: normal;
+	font-variation-settings:
+		'slnt' 0,
+		'CASL' 0,
+		'CRSV' 0.5,
+		'MONO' 0;
 }

@@ -1,11 +1,10 @@
 <script lang="ts">
-  import SearchBar from "$lib/components/SearchBar.svelte";
+	import SearchBar from '$lib/components/SearchBar.svelte';
 </script>
 
 <form id="naverScrapeForm" class="recursive-400" action="/scrape">
-  <SearchBar />
+	<SearchBar />
 </form>
 
 <style>
 </style>
-

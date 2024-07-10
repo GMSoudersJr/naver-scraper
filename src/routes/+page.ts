@@ -2,6 +2,6 @@ import type { PageLoad } from './$types';
 
 export const load: PageLoad = async () => {
 	return {
-		title: "Rachel's Naver News Scraper",
-	}
-}
+		title: "Rachel's Naver News Scraper"
+	};
+};
