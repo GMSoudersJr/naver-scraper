@@ -8,7 +8,7 @@ import {
 } from './consts';
 
 export const scrapeNaver = async(queryTerm = PLUG_AND_PLAY_KOREA): Promise<string[]> => {
-  const browser = await playwright.chromium.launch({ headless: true });
+  const browser = await playwright.firefox.launch({ headless: true });
 
   const context = await browser.newContext();
 
